@@ -43,11 +43,13 @@ class non_bottleneck_1d (nn.Module):
 
     def forward(self, input):
         output = self.depthwise_conv3x1_1(input)
+        output = F.relu(output)
         output = self.pointwise_conv1x1_1(output)
         output = self.bn1(output)
         output = F.relu(output)
 
         output = self.depthwise_conv3x1_2(output)
+        output = F.relu(output)
         output = self.pointwise_conv1x1_2(output)
         output = self.bn2(output)
 
