@@ -34,8 +34,7 @@ class non_bottleneck_1d (nn.Module):
 
         self.bn1 = nn.BatchNorm2d(chann, eps=1e-03)
 
-        self.depthwise_conv3x1_2 = nn.Conv2d(chann, chann, (3, 1), stride=1, padding=(1 * dilated, 0), groups=chann,
-                                             dilation=(dilated, 1), bias=True)
+        self.depthwise_conv3x1_2 = nn.Conv2d(chann, chann, (3, 1), stride=1, padding=(1 * dilated, 0), groups=chann, dilation=(dilated, 1), bias=True)
         self.pointwise_conv1x1_2 = nn.Conv2d(chann, chann, 1, stride=1, padding=0, bias=True) #Instead of doing the 1x3 convolution, we replaced it with a 1x1 convolution to improve segmentation speed and reduce parameters
 
         self.bn2 = nn.BatchNorm2d(chann, eps=1e-03)
