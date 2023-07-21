@@ -9,7 +9,7 @@ import torch.nn.init as init
 import torch.nn.functional as F
 
 #Current modifications to this architecture include halving the number of non_bottleneck_1d layers throughout the model
-#and replacing the 1x3 convolutions in the bottleneck with a 1x1 convolution.
+#and replacing the 1x3 convolutions in the bottleneck with 1x1 convolutions.
 
 class DownsamplerBlock (nn.Module):
     def __init__(self, in_channels, out_channels):
