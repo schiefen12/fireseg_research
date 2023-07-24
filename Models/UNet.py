@@ -6,9 +6,7 @@ from torchvision.models import resnet50
 #Each layer is followed by a max pooling operation
 #Skip-connections are also used in the decoder to bring in learned features from the corresponding encoder layer
 
-#This model is an implementation of the model from the "U-Net: Convolutional Networks for Biomedical" paper.
-
-Image Segmentation
+#This model is an implementation of the model from the "U-Net: Convolutional Networks for Biomedical Image Segmentation" paper.
 
 class UNet(nn.Module):
     def __init__(self, num_classes, in_channels=3):
@@ -27,20 +25,11 @@ class UNet(nn.Module):
         self.expanding3 = nn.ConvTranspose2d(256, 64, kernel_size=2, stride=2)
         self.expanding4 = nn.ConvTranspose2d(128, num_classes, kernel_size=1)
 
-        #self.se1 = SELayer(64)
-        #self.se2 = SELayer(128)
-        #self.se3 = SELayer(256)
-        #self.se4 = SELayer(512)
-
     def forward(self, x):
         x1 = self.contracting1(x)
-        #x1 = self.se1(x1)
         x2 = self.contracting2(self.maxpool1(x1))
-        #x2 = self.se2(x2)
         x3 = self.contracting3(self.maxpool2(x2))
-        #x3 = self.se3(x3)
         x4 = self.contracting4(self.maxpool3(x3))
-        #x4 = self.se4(x4)
 
         x = self.expanding1(x4)
         x = torch.cat([x, x3], dim=1)
@@ -73,23 +62,3 @@ class DoubleConv(nn.Module):
         x = self.relu2(x)
         x = self.dropout(x)
         return x
-
-"""
-class SELayer(nn.Module):
-    def __init__(self, channel, reduction=32):
-        super(SELayer, self).__init__()
-        self.avg_pool = nn.AdaptiveAvgPool2d(1)
-        self.fc = nn.Sequential(
-            nn.Linear(channel, channel // reduction, bias=False),
-            nn.ReLU(inplace=True),
-            nn.Linear(channel // reduction, channel, bias=False),
-            nn.Sigmoid()
-        )
-
-    def forward(self, x):
-        b, c, _, _ = x.size()
-        y = self.avg_pool(x).view(b, c)
-        y = self.fc(y).view(b, c, 1, 1)
-        return x * y.expand_as(x)
-"""
-
