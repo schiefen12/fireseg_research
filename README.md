@@ -20,6 +20,8 @@ Required packages are listed in the `requirements.txt` file.
 
 ## Modified ERFNet Model
 
+![](Images/Modified-ERFNet-Diagram.png)
+
 ## Usage
 
 ## References
