@@ -22,5 +22,6 @@ This project improved upon the segmentation speed and efficiency of the original
 ![](Images/Modified-ERFNet-Diagram.png)
 
 ## Usage
+This program is set up as a Jupyter Notebook and all the necessary modules and functions are defined within the notebook.
 
 ## References
