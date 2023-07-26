@@ -11,7 +11,7 @@ This project uses the same preprocessing methods as [this notebook](https://gith
 
 ### Requirements
 
-Required packages are listed in the 'requirements.txt' file.
+Required packages are listed in the `requirements.txt` file.
 
 ### Download dataset
 
