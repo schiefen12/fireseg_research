@@ -18,8 +18,8 @@ Required packages are listed in the `requirements.txt` file.
 * [FLAME](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)
   * Specifically, the images used are from *(9) Images for fire segmentation (Train/Val/Test) Images.zip)* and *(10) Masks annotation for fire segmentation (Train/Val/Test) Masks.zip)* under *'Dataset Files'*
 
-## Modified ERFNet Model
-
+## Modified ERFNet Architecture
+This project improved upon the segmentation speed and efficiency of the original ERFNet model by halving the number of `non-bt-1D` layers throughout the model and by changing the `1x3` convolutions within the `non-bt-1D` to 1x1 convolutions.
 ![](Images/Modified-ERFNet-Diagram.png)
 
 ## Usage
