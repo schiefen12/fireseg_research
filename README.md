@@ -1,4 +1,3 @@
-# Fire Segmentation Research
-## Aerial Fire Detection with Semantic Segmentation Research
+# Aerial Fire Detection with Semantic Segmentation Research
 
-This 
+This is an implementation of multiple Deep Learning models for fire semantic segmentation. This project utilizes the FLAME dataset, a widely recognized collection of labeled aerial imagery specifically designed for fire-related analysis, which can be found [here] (https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs).
