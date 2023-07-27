@@ -1,7 +1,7 @@
 # Aerial Fire Detection with Semantic Segmentation Research
-Due to the increased popularity of Unmanned Aerial Vehicles (UAVs) for monitoring and predicting potential fire regions, there is a need for models that are able to analyze aerial imagery and run efficiently on devices with limited computing power. 
+Due to the increased popularity of *Unmanned Aerial Vehicles (UAVs)* for monitoring and predicting potential fire regions, there is a need for models that are able to analyze aerial imagery and run efficiently on devices with limited computing power. 
 
-This project aims to investigate efficient real-time fire detection methods using semantic segmentation and evaluate the effectiveness of different models in identifying and segmenting fires in aerial images. This project also introduces a couple modifications on the original [ERFNet](http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17tits.pdf) model to improve the overall efficiency and segmentation speed.
+This project aims to investigate efficient real-time fire detection methods using semantic segmentation and evaluate the effectiveness of different models in identifying and segmenting fires in aerial images. This project also introduces a couple modifications on the original [*ERFNet*](http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17tits.pdf) model to improve the overall efficiency and segmentation speed.
 
 This project utilizes the Fire Luminosity Airborne-based Machine Learning Evaluation dataset (FLAME) dataset, a widely recognized collection of labeled aerial imagery specifically designed for fire-related analysis, which is available [here](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs) (you may need to reload the link). 
 
@@ -25,7 +25,7 @@ You can ensure the required packages have been installed by running this command
   * Specifically, the images used are from *(9) Images for fire segmentation (Train/Val/Test) Images.zip)* and *(10) Masks annotation for fire segmentation (Train/Val/Test) Masks.zip)* under *'Dataset Files'*
 
 ## Modified ERFNet Architecture
-This project improved upon the segmentation speed and efficiency of the original ERFNet model by halving the number of `non-bt-1D` layers throughout the model and by changing the `1x3` convolutions within the `non-bt-1D` to 1x1 convolutions.
+This project improved upon the segmentation speed and efficiency of the original *ERFNet* model by halving the number of `non-bt-1D` layers throughout the model and by changing the `1x3` convolutions within the `non-bt-1D` to `1x1` convolutions.
 
 ![](Images/Modified-ERFNet-Diagram.png)
 
