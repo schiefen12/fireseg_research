@@ -13,12 +13,14 @@ This project uses the same preprocessing methods as [this notebook](https://gith
 Required packages are listed in the `requirements.txt` file.
 To install the required packages directly from the file into the notebook, you can run this command in a notebook cell:
 ```sh
-!pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 You can ensure the required packages have been installed by running this command in a Jupyter Notebook cell:
 ```sh
-!pip freeze
+pip freeze
 ```
+
+These models were trained and tested on an IPython 7.31.1 kernel with a NVIDIA P100 GPU using Python 3.9.13 and CUDA version 11.2.1.
 
 ### Download dataset
 * [FLAME](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)
@@ -31,5 +33,14 @@ This project improved upon the segmentation speed and efficiency of the original
 
 ## Usage
 This project is set up as a Jupyter Notebook and all the necessary modules and functions are defined within the notebook.
+
+## Dependencies
+* [OpenCV](https://pypi.org/project/opencv-python/)
+* [Scikit-Learn](https://scikit-learn.org/stable/)
+* [PyTorch](https://pytorch.org/get-started/pytorch-2.0/)
+* [MatPlotLib](https://matplotlib.org/)
+* [NumPy](https://numpy.org/)
+* [Torchinfo](https://pypi.org/project/torchinfo/)
+* [Torchvision](https://pypi.org/project/torchvision/)
 
 ## References
