@@ -24,7 +24,7 @@ These models were trained and tested on an IPython 7.31.1 kernel with a NVIDIA P
 
 ### Download dataset
 * [FLAME](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)
-  * Specifically, the images used are from *(9) Images for fire segmentation (Train/Val/Test) Images.zip)* and *(10) Masks annotation for fire segmentation (Train/Val/Test) Masks.zip)* under *'Dataset Files'*
+  * Specifically, the images used are from *(9) Images for fire segmentation (Train/Val/Test) Images.zip)* and *(10) Masks annotation for fire segmentation (Train/Val/Test) Masks.zip)* under *'Dataset Files'* and unzip the files into the `./dataset` folder.
 
 ## Modified ERFNet Architecture
 This project improves upon the segmentation speed and efficiency of the original *ERFNet* model by halving the number of `non-bt-1D` layers throughout the model and by changing the `1x3` convolutions within the `non-bt-1D` layers to `1x1` convolutions.
@@ -33,6 +33,24 @@ This project improves upon the segmentation speed and efficiency of the original
 
 ## Usage
 This project is set up as a Jupyter Notebook and all the necessary modules and functions are defined within the notebook.
+
+## Repository Structure
+
+.
+    ├── Images                                          # Directory containing images that are shown in the notebook and the README.
+    ├── dataset                                         # Directory containing the aerial fire images and the respective segmentation masks.
+    ├── Checkpoints                                     # The fire segmemntation model checkpoints.
+    │   ├── ERFNet.pth                                  # The ERFNet model checkpoint.
+    │   ├── Modified_ERFNet.pth                         # The Modified ERFNet model checkpoint.
+    │   └── mean-std.npy                                # The mean and standard deviation computed on the train dataset.
+    ├── Models
+    │   ├── ERFNet.py                               # Definition of the ERFNet Model.
+    │   ├── EfficientSeg.py                         # Definition of the EfficientSeg Model.
+    │   ├── Modified_DeepLabv3.py                   # Definition of the Modified DeepLabv3 Model.
+    │   ├── Modified_ERFNet.py                      # Definition of the Modified ERFNet Model.
+    │   └── UNet.py                                 # Definition of the U-Net Model.
+    ├── Fire Segmentation Pipeline.ipynb                # Notebook to train and test the models on.
+    └── README.md
 
 ## Dependencies
 * [OpenCV](https://pypi.org/project/opencv-python/)
