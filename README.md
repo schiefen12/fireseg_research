@@ -44,3 +44,11 @@ This project is set up as a Jupyter Notebook and all the necessary modules and f
 * [Torchvision](https://pypi.org/project/torchvision/)
 
 ## References
+Li, Mengna, et al. "A Real-time Fire Segmentation Method Based on A Deep Learning Approach." IFAC-PapersOnLine 55.6 (2022): 145-150. url: https://www.sciencedirect.com/science/article/pii/S2405896322005055
+
+Romera, Eduardo, et al. "Erfnet: Efficient residual factorized convnet for real-time semantic segmentation." IEEE Transactions on Intelligent Transportation Systems 19.1 (2017): 263-272. url: http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17tits.pdf
+
+Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." *Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18*. Springer International Publishing, 2015. url: https://arxiv.org/abs/1505.04597
+
+Yesilkaynak, Vahit Bugra, Yusuf H. Sahin, and Gozde Unal. "Efficientseg: An efficient semantic segmentation network." *arXiv preprint arXiv:2009.06469* (2020). url: https://arxiv.org/abs/2009.06469
+
