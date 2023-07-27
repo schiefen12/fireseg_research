@@ -42,6 +42,11 @@ Here are the results collected from the best performance of the models.
 ## Usage
 This project is set up as a Jupyter Notebook and all the necessary modules and functions are defined within the notebook.
 
+To run the notebook:
+1. Clone the repository.
+2. Install the necessary dependencies from the `requirements.txt` file.
+3. Run the notebook
+
 ## Repository Structure
     .
     ├── dataset                                         # Directory containing the aerial fire images and the respective segmentation masks.
