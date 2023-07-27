@@ -35,7 +35,7 @@ This project improves upon the segmentation speed and efficiency of the original
 This project is set up as a Jupyter Notebook and all the necessary modules and functions are defined within the notebook.
 
 ## Repository Structure
-.
+    .
     ├── Images                                          # Directory containing images that are shown in the notebook and the README.
     ├── dataset                                         # Directory containing the aerial fire images and the respective segmentation masks.
     ├── Checkpoints                                     # The fire segmemntation model checkpoints.
