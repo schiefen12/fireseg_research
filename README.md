@@ -26,10 +26,18 @@ These models were trained and tested on an IPython 7.31.1 kernel with a NVIDIA P
 * [FLAME](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)
   * Specifically, the images used are from *(9) Images for fire segmentation (Train/Val/Test) Images.zip)* and *(10) Masks annotation for fire segmentation (Train/Val/Test) Masks.zip)* under *'Dataset Files'* and unzip the files into the `./dataset` folder.
 
-## Modified ERFNet Architecture
+## Description
 This project improves upon the segmentation speed and efficiency of the original *ERFNet* model by halving the number of `non-bt-1D` layers throughout the model and by changing the `1x3` convolutions within the `non-bt-1D` layers to `1x1` convolutions.
 
 ![](Images/Modified-ERFNet-Diagram.png)
+
+### Metrics
+This project evaluates the performance of the models based on Mean Pixel Accuracy (mPA), Mean Intersection over Union (mIoU), Frames per Second (FPS), and Training Time (TT).
+
+### Results
+Here are the results collected from the best performance of the models.
+
+![](Images/Result-Table.png)
 
 ## Usage
 This project is set up as a Jupyter Notebook and all the necessary modules and functions are defined within the notebook.
