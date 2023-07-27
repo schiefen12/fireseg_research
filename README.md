@@ -15,7 +15,7 @@ To install the required packages directly from the file into the notebook, you c
 ```sh
 pip install -r requirements.txt
 ```
-You can ensure the required packages have been installed by running this command in a Jupyter Notebook cell:
+You can ensure the required packages have been installed by running this command in a Jupyter Notebook cell to display a list of all the installed packages and their versions:
 ```sh
 pip freeze
 ```
