@@ -11,6 +11,14 @@ This project uses the same preprocessing methods as [this notebook](https://gith
 
 ### Requirements
 Required packages are listed in the `requirements.txt` file.
+To install the required packages directly from the file into the notebook, you can run this command in a notebook cell:
+```sh
+!pip install -r requirements.txt
+```
+You can ensure the required packages have been installed by running this command in a Jupyter Notebook cell:
+```sh
+!pip freeze
+```
 
 ### Download dataset
 * [FLAME](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)
