@@ -60,6 +60,8 @@ This project is set up as a Jupyter Notebook and all the necessary modules and f
 * [NumPy](https://numpy.org/)
 * [Torchinfo](https://pypi.org/project/torchinfo/)
 * [Torchvision](https://pypi.org/project/torchvision/)
+* [SciPy](https://pypi.org/project/scipy/1.9.1/)
+* [Pandas](https://pypi.org/project/pandas/1.4.4/)
 
 ## References
 Li, Mengna, et al. "A Real-time Fire Segmentation Method Based on A Deep Learning Approach." *IFAC-PapersOnLine* 55.6 (2022): 145-150. url: https://www.sciencedirect.com/science/article/pii/S2405896322005055
