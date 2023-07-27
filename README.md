@@ -27,7 +27,7 @@ These models were trained and tested on an IPython 7.31.1 kernel with a NVIDIA P
   * Specifically, the images used are from *(9) Images for fire segmentation (Train/Val/Test) Images.zip)* and *(10) Masks annotation for fire segmentation (Train/Val/Test) Masks.zip)* under *'Dataset Files'*
 
 ## Modified ERFNet Architecture
-This project improved upon the segmentation speed and efficiency of the original *ERFNet* model by halving the number of `non-bt-1D` layers throughout the model and by changing the `1x3` convolutions within the `non-bt-1D` to `1x1` convolutions.
+This project improves upon the segmentation speed and efficiency of the original *ERFNet* model by halving the number of `non-bt-1D` layers throughout the model and by changing the `1x3` convolutions within the `non-bt-1D` layers to `1x1` convolutions.
 
 ![](Images/Modified-ERFNet-Diagram.png)
 
