@@ -42,7 +42,7 @@ This project is set up as a Jupyter Notebook and all the necessary modules and f
     │   ├── Modified_ERFNet.pth                         # The Modified ERFNet model checkpoint.
     │   └── mean-std.npy                                # The mean and standard deviation computed on the train dataset.
     ├── Images                                          # Directory containing images that are shown in the notebook and the README.
-    ├── Models
+    ├── Models                                      # Definitions for the evaluated models.
     │   ├── ERFNet.py                               # Definition of the ERFNet Model.
     │   ├── EfficientSeg.py                         # Definition of the EfficientSeg Model.
     │   ├── Modified_DeepLabv3.py                   # Definition of the Modified DeepLabv3 Model.
