@@ -46,8 +46,6 @@ This project is set up as a IPython Notebook and all the necessary modules and f
     .
     ├── dataset                                         # Directory containing the aerial fire images and the respective segmentation masks.
     ├── Checkpoints                                     # The fire segmemntation model checkpoints.
-    │   ├── ERFNet.pth                                  # The ERFNet model checkpoint.
-    │   ├── Modified_ERFNet.pth                         # The Modified ERFNet model checkpoint.
     │   └── mean-std.npy                                # The mean and standard deviation computed on the train dataset.
     ├── Images                                          # Directory containing images that are shown in the notebook and the README.
     ├── Models                                      # Definitions for the evaluated models.
