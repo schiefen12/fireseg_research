@@ -20,7 +20,7 @@ You can ensure the required packages have been installed by running this command
 pip freeze
 ```
 
-These models were trained and tested on an IPython 7.31.1 kernel with a NVIDIA P100 GPU using Python 3.9.13 and CUDA version 11.2.1.
+These models were trained and tested on an IPython 7.31.1 kernel with a NVIDIA Tesla P100 PCIe 16 GB GPU using Python 3.9.13 and CUDA version 11.2.1.
 
 ### Download dataset
 * [FLAME](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)
