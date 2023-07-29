@@ -59,7 +59,7 @@ This project is set up as a IPython Notebook and all the necessary modules and f
     └── requirements.txt                            # File containing all required dependencies and versions
 
 ## Google Drive
-Here is the Google Drive link that contains the models used, trained models for each architecture, dataset used for project, and notebook with all the necessary code:
+Here is the Google Drive link that contains the model architectures used, trained models for each architecture, dataset used for project, and notebook with all the necessary code:
 https://drive.google.com/drive/folders/1h26dTWys4JA-uOXZtIDLnU_trbQntZXw?usp=drive_link
 
 ## References
