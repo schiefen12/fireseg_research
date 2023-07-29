@@ -58,6 +58,10 @@ This project is set up as a IPython Notebook and all the necessary modules and f
     ├── README.md                 
     └── requirements.txt                            # File containing all required dependencies and versions
 
+## Google Drive
+Here is the Google Drive link that contains the models used, trained models for each architecture, dataset used for project, and notebook with all the necessary code:
+https://drive.google.com/drive/folders/1h26dTWys4JA-uOXZtIDLnU_trbQntZXw?usp=drive_link
+
 ## References
 Li, Mengna, et al. "A Real-time Fire Segmentation Method Based on A Deep Learning Approach." *IFAC-PapersOnLine* 55.6 (2022): 145-150. url: https://www.sciencedirect.com/science/article/pii/S2405896322005055
 
