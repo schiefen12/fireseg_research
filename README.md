@@ -54,7 +54,7 @@ This project is set up as a IPython Notebook and all the necessary modules and f
     │   ├── Modified_DeepLabv3.py                   # Definition of the Modified DeepLabv3 Model.
     │   ├── Modified_ERFNet.py                      # Definition of the Modified ERFNet Model.
     │   └── UNet.py                                 # Definition of the U-Net Model.
-    ├── Fire Segmentation Pipeline.ipynb            # Notebook to train and test the models on.
+    ├── Aerial_Fire_Notebook.ipynb            # Notebook to train and test the models on.
     ├── README.md                 
     └── requirements.txt                            # File containing all required dependencies and versions
 
