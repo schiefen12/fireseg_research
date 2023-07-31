@@ -35,7 +35,7 @@ This project improves upon the segmentation speed and efficiency of the original
 This project evaluates the performance of the models based on Mean Pixel Accuracy (mPA), Mean Intersection over Union (mIoU), Frames per Second (FPS), and Training Time (TT).
 
 ### Results
-Here are the results collected from the best performance of the models.
+Here are the results collected from the models.
 
 ![](Images/Result-Table2.png)
 
