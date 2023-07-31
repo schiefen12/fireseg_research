@@ -5,7 +5,7 @@ This project aims to investigate efficient real-time fire detection methods usin
 
 This project utilizes the Fire Luminosity Airborne-based Machine Learning Evaluation (FLAME) dataset, a widely recognized collection of labeled aerial imagery specifically designed for fire-related analysis, which is available [here](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs) (you may need to reload the link). 
 
-This project uses the same preprocessing methods as [this notebook](https://github.com/maidacundo/real-time-fire-segmentation-deep-learning/blob/main/Fire%20Segmentation%20Pipeline.ipynb), with different model implementations to test the effectiveness of different models for fire segmentation.
+This project uses the same preprocessing methods as [this notebook](https://github.com/maidacundo/real-time-fire-segmentation-deep-learning/blob/main/Fire%20Segmentation%20Pipeline.ipynb), with different model implementations to test the effectiveness of different models for fire segmentation. The models are all trained with the same hyperparameters.
 
 ## Setup
 
