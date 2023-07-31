@@ -49,15 +49,15 @@ This project is set up as a IPython Notebook and all the necessary modules and f
     │   ├── ModifiedERFNet.pth                          # Model trained in notebook.
     │   └── mean-std.npy                                # The mean and standard deviation computed on the train dataset.
     ├── Images                                          # Directory containing images that are shown in the notebook and the README.
-    ├── Models                                      # Definitions for the evaluated models.
-    │   ├── ERFNet.py                               # Definition of the ERFNet Model.
-    │   ├── EfficientSeg.py                         # Definition of the EfficientSeg Model.
-    │   ├── Modified_DeepLabv3.py                   # Definition of the Modified DeepLabv3 Model.
-    │   ├── Modified_ERFNet.py                      # Definition of the Modified ERFNet Model.
-    │   └── UNet.py                                 # Definition of the U-Net Model.
-    ├── Aerial_Fire_Notebook.ipynb            # Notebook to train and test the models on.
+    ├── Models                                          # Definitions for the evaluated models.
+    │   ├── ERFNet.py                                   # Definition of the ERFNet Model.
+    │   ├── EfficientSeg.py                             # Definition of the EfficientSeg Model.
+    │   ├── Modified_DeepLabv3.py                       # Definition of the Modified DeepLabv3 Model.
+    │   ├── Modified_ERFNet.py                          # Definition of the Modified ERFNet Model.
+    │   └── UNet.py                                     # Definition of the U-Net Model.
+    ├── Aerial_Fire_Notebook.ipynb                      # Notebook to train and test the models on.
     ├── README.md                 
-    └── requirements.txt                            # File containing all required dependencies and versions
+    └── requirements.txt                                # File containing all required dependencies and versions
 
 ## Google Drive
 Here is the Google Drive link that contains the model architectures used, trained models for each architecture, dataset used for project, and notebook with all the necessary code:
