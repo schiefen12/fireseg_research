@@ -37,7 +37,7 @@ This project evaluates the performance of the models based on Mean Pixel Accurac
 ### Results
 Here are the results collected from the best performance of the models.
 
-![](Images/Results.png)
+![](Images/Result-Table2.png)
 
 ## Usage
 This project is set up as a IPython Notebook and all the necessary modules and functions are defined within the notebook.
